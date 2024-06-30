@@ -24,11 +24,10 @@ function App() {
           setalert(null);
       }, 1500);
   }
-
   const toggleMode = ()=>{
     if(mode === 'light'){
       setMode('dark');
-      document.body.style.backgroundColor = '#042743';
+      document.body.style.backgroundColor = '#04667a';
       showAlert("Dark mode has been enabled", "success");
     }
     else{

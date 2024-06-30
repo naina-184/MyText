@@ -10,8 +10,8 @@ export default function About(props) {
 
 
     let myStyle = {
-        color: props.mode ==='dark'?'white':'#042743',
-        backgroundColor: props.mode ==='dark'?'rgb(36 74 104)':'white', 
+        color: props.mode ==='dark'?'white':'#04667a',
+        backgroundColor: props.mode ==='dark'?'rgb(4 102 122 1)':'white', 
     }
 
   
@@ -36,8 +36,8 @@ export default function About(props) {
     // }
 
   return (
-      <div className='container' style={{color: props.mode ==='dark'?'white':'#042743'}}>
-        <h2 className='my-3'>About Us</h2>
+      <div className='container' >
+        <h2 className='my-3' style={{color: props.mode ==='dark'?'white':'#042743'}}>About Us</h2>
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">
             <h2 className="accordion-header">
